@@ -1,1 +1,3 @@
-# CogRobotics_FinalProject
+
+
+#6D Pose Estimation of Objects Using the GOODdescriptor
