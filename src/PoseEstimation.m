@@ -69,7 +69,7 @@ end
 %Here we load in the scene object. This is the object that is being
 %compared to the first object to determine the pose transformation.
 A = containers.Map;
-pbTransformed = pcread('bottle_with_normal.pcd');
+pbTransformed = pcread('Bottle_Object_with_normal_XYZ.pcd');
 pb2 = pcdownsample(pbTransformed,'random',samplePercentage);
 Ns = pb2.Count;
 poselist = containers.Map;
