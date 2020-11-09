@@ -31,4 +31,4 @@ title('Transformed')
 
 %add surfacenormals to the pointcloud
 ptCloudTrans.Normal = pcnormals(ptCloudTrans);
-pcwrite(ptCloudTrans,"Mushroom_object_with_normal_XYZ.pcd",'Encoding','ascii')
+pcwrite(ptCloudTrans,"Bottle_Object_with_normal_XYZ.pcd",'Encoding','ascii')
