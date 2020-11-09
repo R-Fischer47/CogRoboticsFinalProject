@@ -8,7 +8,7 @@
 
 hashmap = containers.Map;
 samplePercentage = 0.75;
-pbOriginal = pcread('Bottle_Object7.pcd');
+pbOriginal = pcread('Knife_Object0.pcd');
 pb = pcdownsample(pbOriginal,'random',samplePercentage);
 N = pb.Count;
 pb.Normal = pcnormals(pb);
@@ -69,7 +69,7 @@ end
 %Here we load in the scene object. This is the object that is being
 %compared to the first object to determine the pose transformation.
 A = containers.Map;
-pbTransformed = pcread('Bottle_Object_with_normal_XYZ.pcd');
+pbTransformed = pcread('Knife_Object0_with_normal_XYZ.pcd');
 pb2 = pcdownsample(pbTransformed,'random',samplePercentage);
 Ns = pb2.Count;
 poselist = containers.Map;
