@@ -1,7 +1,7 @@
 
 %Read the bottle object
 %used Bottle_Object7
-ptCloud = pcread('Bottle_Object7.pcd');
+ptCloud = pcread('knifeObject0.pcd');
 
 %Transformation of the object
 
@@ -36,4 +36,4 @@ title('Transformed')
 
 %add surfacenormals to the pointcloud
 ptCloudTrans.Normal = pcnormals(ptCloudTrans);
-pcwrite(ptCloudTrans,"Bottle_Object_with_normal_XYZ.pcd",'Encoding','ascii')
+pcwrite(ptCloudTrans,"knifeObject0_with_normal_XYZ.pcd",'Encoding','ascii')
