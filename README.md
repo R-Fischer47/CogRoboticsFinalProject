@@ -10,7 +10,7 @@ In our approach we use the Restaurant RGB-D Dataset (https://github.com/SeyedHam
 
 ## Prerequisites to run the model
   - Make sure you have a base point cloud of an object for reference (our default base model is "Knife_Object0.pcd")
-  - Make sure you have Matlab2019a or later version with the packages (Image processing toolbox, Communication toolbox)
+  - Make sure you have Matlab2019a or later version with the packages (Image processing toolbox, Communication toolbox and Computer Vision Toolbox )
   
 ## Steps to run the model
   - Run "src/rigid3dTransformation.m". Here we read the "Knife_Object0.pcd" and transform it in the X,Y and(or) Z axis rotations. The output image serves as the input to the second script.
