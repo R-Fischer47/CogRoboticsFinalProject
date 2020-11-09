@@ -12,8 +12,6 @@ In this projec twe  try  to  enhance  an  existing  object  recognizer  algorith
   - Make sure you have Matlab2019a or later version with the packages (Image processing toolbox, Communication toolbox)
   
 ## Steps to run the model
-  - Run "src/rigid3dTransformation.m" 
-    Here we read the "Bottle_Object7.pcd" and transform it in the X,Y and(or) Z axis rotations. The output image serves as the input to the second script.
+  - Run "src/rigid3dTransformation.m". Here we read the "Bottle_Object7.pcd" and transform it in the X,Y and(or) Z axis rotations. The output image serves as the input to the second script.
 
-  - Run "src/PoseEstimation.m"
-    Here we take the base object "Bottle_Object7.pcd" and the reference object as inputs. The model calculates the pose transformation of the second object compared to the base object. The output is displayed in a windowed fashion
+  - Run "src/PoseEstimation.m". Here we take the base object "Bottle_Object7.pcd" and the reference object as inputs. The model calculates the pose transformation of the second object compared to the base object. The output is displayed in a windowed fashion
