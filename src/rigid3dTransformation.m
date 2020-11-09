@@ -1,7 +1,7 @@
 
 %Read the bottle object
 %used Bottle_Object7
-ptCloud = pcread('mushroom_object_1003.pcd');
+ptCloud = pcread('Bottle_Object7.pcd');
 
 %Transformation of the object
 %X-axis Rotation
