@@ -6,7 +6,7 @@ This repository is the work of Richard Fischer, Bharath Raj, Ruben Spolmink and 
 
 In this project we  try  to  enhance  an  existing  object  recognizer  algorithm  with an additional feature of orientation validation. Our idea for this implementation  is  to  couple  a  voting-based  point  pair  feature(PPF) pose estimation algorithm (Drost et al. 2010) with a state of the art object descriptor - Global orthographic object descriptor(GOOD)  (Kasaei  et  al.  2016)
 
-In our approach we use the Restaurant RGB-D Dataset (https://github.com/SeyedHamidreza/restaurant_object_dataset)which has the depth information along with the colour information of pointclouds. 
+In our approach we use the Restaurant RGB-D Dataset (https://github.com/SeyedHamidreza/restaurant_object_dataset) which has the depth information along with the colour information of pointclouds. 
 
 ## Prerequisites to run the model
   - Make sure you have a base point cloud of an object for reference (our default base model is "Knife_Object0.pcd")
