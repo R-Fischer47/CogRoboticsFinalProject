@@ -4,9 +4,14 @@
 ptCloud = pcread('Bottle_Object7.pcd');
 
 %Transformation of the object
+
 %X-axis Rotation
 thetaX = pi/4;
+
+%Y-axis Rotation
 thetaY = pi/4;
+
+%Z-axis Rotation
 thetaZ = pi/4;
 rotX = [1 0 0; ...
     0 cos(thetaX) -sin(thetaX); ...
