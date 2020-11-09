@@ -17,4 +17,4 @@ In this projec twe  try  to  enhance  an  existing  object  recognizer  algorith
   - Run "src/PoseEstimation.m". Here we take the base object "Knife_Object0.pcd" and the reference object as inputs (`line 11` and `line 72`). The model calculates the pose transformation of the second object compared to the base object. The output is displayed in a windowed fashion. A sample output is shown as below
   
  ## Result of our approach
-  ![alt text](https://github.com/R-Fischer47/CogRobotics_FinalProject/blob/main/Results/knife0results.jpg)
+  ![alt text](https://github.com/R-Fischer47/CogRobotics_FinalProject/blob/main/Results/knife_result.jpg)
